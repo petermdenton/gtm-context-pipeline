@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Accounts and Clusters"
+  short_description: "Research accounts and review draft clusters"
+  default_prompt: "Use $gtm-clusters. Develop sourced account and cluster proposals for this client, preserving qualification gaps and review state."

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gtm-context-pipeline"
+version = "0.1.0"
+description = "Evidence-based GTM toolkit with configurable evidence and reviewable handoffs"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+google = ["google-auth[requests]>=2.38,<3"]
+
+[project.scripts]
+gtm = "gtm_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["gtm_pipeline*"]
+
+[tool.setuptools.package-data]
+gtm_pipeline = ["portal_static/*.html", "portal_static/*.css", "portal_static/*.js", "portal_static/*.png"]

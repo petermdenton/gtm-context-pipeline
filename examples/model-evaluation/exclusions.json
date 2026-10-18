@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "funnel": "research-intake",
+  "as_of": "2026-10-09",
+  "coverage": {
+    "membership": "complete",
+    "customers": "complete",
+    "suppression": "complete",
+    "holds": "complete",
+    "pending_batches": "complete"
+  },
+  "records": [
+    {
+      "domain": "model-evaluation-existing.example",
+      "reason": "Existing funnel member (synthetic)"
+    }
+  ]
+}

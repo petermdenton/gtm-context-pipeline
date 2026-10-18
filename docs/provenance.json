@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-18",
+  "source": "GTM Pipeline working-tree snapshot",
+  "source_base_commit": "a34e490",
+  "scope": "Allowlisted reusable code, workflows, documentation and synthetic fixtures. Fresh Git history; private workspaces and client-specific measurement adapter excluded.",
+  "changes": [
+    "Renamed the synthetic model-evaluation fixture and adjusted its tests.",
+    "Excluded the client-specific measurement importer and its two dedicated tests.",
+    "Updated analytics guidance and public documentation to match exported capabilities.",
+    "Retained the agency portal branding and its local-only boundary."
+  ]
+}

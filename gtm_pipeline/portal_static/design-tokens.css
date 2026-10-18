@@ -1,0 +1,81 @@
+/* Interface system v0.1. Semantic tokens are the shared public API. */
+:root {
+  color-scheme: light;
+  --ds-font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --ds-text-xs: 0.75rem;
+  --ds-text-sm: 0.8125rem;
+  --ds-text-md: 0.875rem;
+  --ds-text-lg: 1rem;
+  --ds-text-xl: 1.25rem;
+  --ds-text-2xl: 1.75rem;
+  --ds-text-3xl: 2.25rem;
+  --ds-leading-tight: 1.2;
+  --ds-leading-body: 1.6;
+  --ds-weight-regular: 400;
+  --ds-weight-medium: 500;
+  --ds-weight-semibold: 600;
+  --ds-tracking-heading: -0.035em;
+
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-5: 20px;
+  --ds-space-6: 24px;
+  --ds-space-8: 32px;
+  --ds-space-10: 40px;
+  --ds-space-12: 48px;
+  --ds-space-16: 64px;
+
+  --ds-color-canvas: #fcfcfb;
+  --ds-color-surface: #ffffff;
+  --ds-color-surface-subtle: #f5f6f3;
+  --ds-color-surface-hover: #edf0e9;
+  --ds-color-surface-selected: #e7eddf;
+  --ds-color-text: #252923;
+  --ds-color-text-secondary: #535b4e;
+  --ds-color-text-muted: #686f62;
+  --ds-color-text-disabled: #969c90;
+  --ds-color-border: #dce1d6;
+  --ds-color-border-subtle: #e9ece5;
+  --ds-color-border-strong: #89947f;
+  --ds-color-action: #293126;
+  --ds-color-action-hover: #414e3b;
+  --ds-color-on-action: #ffffff;
+  --ds-color-accent: #dbe7c8;
+  --ds-color-accent-ink: #405236;
+  --ds-color-focus: #345f9d;
+  --ds-color-link: #345f9d;
+  --ds-color-success: #32664e;
+  --ds-color-success-bg: #edf5ef;
+  --ds-color-warning: #805717;
+  --ds-color-warning-bg: #fbf3e5;
+  --ds-color-danger: #a13932;
+  --ds-color-danger-bg: #fff0ee;
+  --ds-color-info: #345b83;
+  --ds-color-info-bg: #edf3fb;
+  --ds-color-backdrop: #1f271f66;
+
+  --ds-radius-sm: 6px;
+  --ds-radius-md: 8px;
+  --ds-radius-lg: 12px;
+  --ds-radius-xl: 20px;
+  --ds-radius-full: 999px;
+  --ds-border-width: 1px;
+  --ds-shadow-sm: 0 1px 2px #25301f08, 0 3px 8px #25301f04;
+  --ds-shadow-popover: 0 8px 28px #25301f14, 0 2px 8px #25301f0a;
+  --ds-shadow-dialog: 0 24px 80px #25301f26;
+  --ds-control-sm: 32px;
+  --ds-control-md: 40px;
+  --ds-control-lg: 48px;
+  --ds-sidebar-width: 224px;
+  --ds-content-width: 1120px;
+  --ds-duration-fast: 140ms;
+  --ds-ease: cubic-bezier(.2, .8, .2, 1);
+  --ds-z-navigation: 10;
+  --ds-z-toast: 50;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --ds-duration-fast: 0ms; }
+}

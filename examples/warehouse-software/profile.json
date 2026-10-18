@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "warehouse-software",
+  "version": "demo-v1",
+  "company": "Warehouse Software Demo",
+  "offer": "Inventory reconciliation for multi-site warehouse operators",
+  "funnel": "research-intake",
+  "evidence_max_age_days": 90,
+  "exclusions_max_age_days": 7,
+  "criteria": [
+    {
+      "id": "warehouse-operations",
+      "description": "Operates warehouses with inventory reconciliation needs",
+      "weight": 70,
+      "required": true
+    },
+    {
+      "id": "multiple-sites",
+      "description": "Operates multiple physical warehouse sites",
+      "weight": 20,
+      "required": true
+    },
+    {
+      "id": "systems-integration",
+      "description": "Has a supported inventory system integration need",
+      "weight": 10,
+      "required": false
+    }
+  ]
+}

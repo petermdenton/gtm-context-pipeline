@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Campaign Authoring"
+  short_description: "Create sourced messaging and creative assets"
+  default_prompt: "Use $gtm-campaign-authoring. Turn this reviewed audience brief into the requested research, copy and creative assets."

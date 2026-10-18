@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Outreach"
+  short_description: "Research buying teams and draft tailored emails"
+  default_prompt: "Use $gtm-outreach. Map the relevant buying team and prepare the requested email drafts from this client's company briefs."

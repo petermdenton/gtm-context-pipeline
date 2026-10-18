@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "profile_id": "model-evaluation",
+  "profile_version": "demo-v1",
+  "records": [
+    {
+      "name": "Synthetic Model Evaluation Demo Alpha",
+      "domain": "model-evaluation-alpha.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "production-workload": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for a production language-model workflow; not a real company claim.",
+          "source_url": "https://model-evaluation-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "repeatable-evaluation": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for repeatable tasks with an observable quality criterion; not a real company claim.",
+          "source_url": "https://model-evaluation-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "scale-signal": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for evidence of meaningful usage volume; not a real company claim.",
+          "source_url": "https://model-evaluation-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Model Evaluation Demo Beta",
+      "domain": "model-evaluation-beta.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "production-workload": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for a production language-model workflow; not a real company claim.",
+          "source_url": "https://model-evaluation-beta.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "repeatable-evaluation": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for repeatable tasks with an observable quality criterion; not a real company claim.",
+          "source_url": "https://model-evaluation-beta.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "scale-signal": {
+          "verdict": "unknown",
+          "rationale": "No evidence in this synthetic fixture."
+        }
+      }
+    },
+    {
+      "name": "Synthetic Model Evaluation Demo Existing",
+      "domain": "model-evaluation-existing.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "production-workload": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for a production language-model workflow; not a real company claim.",
+          "source_url": "https://model-evaluation-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "repeatable-evaluation": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for repeatable tasks with an observable quality criterion; not a real company claim.",
+          "source_url": "https://model-evaluation-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "scale-signal": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for evidence of meaningful usage volume; not a real company claim.",
+          "source_url": "https://model-evaluation-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Model Evaluation Demo Unknown",
+      "domain": "model-evaluation-unknown.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "production-workload": {
+          "verdict": "unknown",
+          "rationale": "No evidence in this synthetic fixture."
+        },
+        "repeatable-evaluation": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for repeatable tasks with an observable quality criterion; not a real company claim.",
+          "source_url": "https://model-evaluation-unknown.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "scale-signal": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for evidence of meaningful usage volume; not a real company claim.",
+          "source_url": "https://model-evaluation-unknown.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Model Evaluation Demo Reserve",
+      "domain": "model-evaluation-reserve.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "production-workload": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for a production language-model workflow; not a real company claim.",
+          "source_url": "https://model-evaluation-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "repeatable-evaluation": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for repeatable tasks with an observable quality criterion; not a real company claim.",
+          "source_url": "https://model-evaluation-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "scale-signal": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for evidence of meaningful usage volume; not a real company claim.",
+          "source_url": "https://model-evaluation-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-18",
+  "source": "GTM Pipeline reusable skill set",
+  "changes": [
+    "Analytics guidance now describes private source adapters; no client-specific importer is distributed."
+  ],
+  "sources": [
+    {
+      "path": "skills/gtm-ad-page/SKILL.md",
+      "source_sha256": "ee37dc9eb81cc1473f02c872ebdc6bc3dd631dce2324b0e9d84ffe01b7f01c70",
+      "export_sha256": "ee37dc9eb81cc1473f02c872ebdc6bc3dd631dce2324b0e9d84ffe01b7f01c70"
+    },
+    {
+      "path": "skills/gtm-ad-page/agents/openai.yaml",
+      "source_sha256": "74c8d6612bab16c5569ee314a8fb692fb28fae638d63952acbd4dcaae770ac90",
+      "export_sha256": "74c8d6612bab16c5569ee314a8fb692fb28fae638d63952acbd4dcaae770ac90"
+    },
+    {
+      "path": "skills/gtm-ad-page/references/authoring.md",
+      "source_sha256": "5825f720df721e34d8fd665e26bb554dc5461dca163303885c1fd4133b248490",
+      "export_sha256": "5825f720df721e34d8fd665e26bb554dc5461dca163303885c1fd4133b248490"
+    },
+    {
+      "path": "skills/gtm-analytics/SKILL.md",
+      "source_sha256": "c953a63ff7ffce0297f852bc2bd7ad519bebe03d688d6be500e6d6bafb6e2718",
+      "export_sha256": "8f945e22fc226c33bed0e2c13a2ac115d22e77b68f7cdae12655c12068274d7a"
+    },
+    {
+      "path": "skills/gtm-analytics/agents/openai.yaml",
+      "source_sha256": "ea5ffa1dad77b51038633312ac2ec78e3ca3247ba01f12e431980c5c6b7ac1e9",
+      "export_sha256": "ea5ffa1dad77b51038633312ac2ec78e3ca3247ba01f12e431980c5c6b7ac1e9"
+    },
+    {
+      "path": "skills/gtm-analytics/references/measurement.md",
+      "source_sha256": "8607eeeee794181886b10c356dee50edfc7770be204d8b2d5f5c49f3759b9b34",
+      "export_sha256": "1c3fe9b8f9578c13aca54f27263b5449d47dd7fd0086338932d5a79ee5206cf0"
+    },
+    {
+      "path": "skills/gtm-campaign-authoring/SKILL.md",
+      "source_sha256": "0646c9b5b1c299cb2a7d1dd04836db3ebaae7724c314933603e9073cec1dc9e4",
+      "export_sha256": "0646c9b5b1c299cb2a7d1dd04836db3ebaae7724c314933603e9073cec1dc9e4"
+    },
+    {
+      "path": "skills/gtm-campaign-authoring/agents/openai.yaml",
+      "source_sha256": "b8abb1abfe0a0af916a76e2b640e462de74b057254157e83b2c24729046cda47",
+      "export_sha256": "b8abb1abfe0a0af916a76e2b640e462de74b057254157e83b2c24729046cda47"
+    },
+    {
+      "path": "skills/gtm-campaign-authoring/references/source-collection.md",
+      "source_sha256": "8c2e007826dbc799a45dc2b397430090188358a3fe8de6495eb0a975c083e455",
+      "export_sha256": "8c2e007826dbc799a45dc2b397430090188358a3fe8de6495eb0a975c083e455"
+    },
+    {
+      "path": "skills/gtm-campaign-operations/SKILL.md",
+      "source_sha256": "b395df87b80d25fc6751eccf37ffa5eb3b132a4bb694a6be2226dbedab2516de",
+      "export_sha256": "b395df87b80d25fc6751eccf37ffa5eb3b132a4bb694a6be2226dbedab2516de"
+    },
+    {
+      "path": "skills/gtm-campaign-operations/agents/openai.yaml",
+      "source_sha256": "f919e69b72b16ef85ba67f2b7cc4abb5f4dae73c05c2b923dc0f78066fdaa4fb",
+      "export_sha256": "f919e69b72b16ef85ba67f2b7cc4abb5f4dae73c05c2b923dc0f78066fdaa4fb"
+    },
+    {
+      "path": "skills/gtm-campaign-operations/references/platform-loop.md",
+      "source_sha256": "d58173aace8999b98f5adea709c0fa96c507dccfae890df6d5bff5ff0b79d5dd",
+      "export_sha256": "d58173aace8999b98f5adea709c0fa96c507dccfae890df6d5bff5ff0b79d5dd"
+    },
+    {
+      "path": "skills/gtm-clusters/SKILL.md",
+      "source_sha256": "2463a24fb5530c839f2d373bd6cd58a9fdd07ffbcd60ba5d8aea666264e4301f",
+      "export_sha256": "2463a24fb5530c839f2d373bd6cd58a9fdd07ffbcd60ba5d8aea666264e4301f"
+    },
+    {
+      "path": "skills/gtm-clusters/agents/openai.yaml",
+      "source_sha256": "5a9aa9fb006bf71f61224de93d25d191826dffbb810356376671f6c6908c0cf4",
+      "export_sha256": "5a9aa9fb006bf71f61224de93d25d191826dffbb810356376671f6c6908c0cf4"
+    },
+    {
+      "path": "skills/gtm-clusters/references/seed-discovery.md",
+      "source_sha256": "a2d4ad66a91d84db16a4e13525b98769f1bff2e6e646708459b75c42a8777d88",
+      "export_sha256": "a2d4ad66a91d84db16a4e13525b98769f1bff2e6e646708459b75c42a8777d88"
+    },
+    {
+      "path": "skills/gtm-next-companies/SKILL.md",
+      "source_sha256": "c979e4d1c384f4ef50676baae11f493dc490589443308e0a47da5dbfd3470487",
+      "export_sha256": "c979e4d1c384f4ef50676baae11f493dc490589443308e0a47da5dbfd3470487"
+    },
+    {
+      "path": "skills/gtm-next-companies/agents/openai.yaml",
+      "source_sha256": "91a684cbb0772d97eeedb5098d04c0b7274095b9a159f97ce22541d6d38c1227",
+      "export_sha256": "91a684cbb0772d97eeedb5098d04c0b7274095b9a159f97ce22541d6d38c1227"
+    },
+    {
+      "path": "skills/gtm-next-companies/references/selection.md",
+      "source_sha256": "7c37b28b366b1759bfea0aea86dbbec47fbdd494bda4d4ce64e15831df6bbca3",
+      "export_sha256": "7c37b28b366b1759bfea0aea86dbbec47fbdd494bda4d4ce64e15831df6bbca3"
+    },
+    {
+      "path": "skills/gtm-outreach/SKILL.md",
+      "source_sha256": "631fa44d6ca43df8e9b0ce12f16c393b518afdf44e358286f28161b4f22524e1",
+      "export_sha256": "631fa44d6ca43df8e9b0ce12f16c393b518afdf44e358286f28161b4f22524e1"
+    },
+    {
+      "path": "skills/gtm-outreach/agents/openai.yaml",
+      "source_sha256": "b095e05d2230ba45c46e0ed1d31cf615ae5fa7c139aa62047f0d0e5a53e72059",
+      "export_sha256": "b095e05d2230ba45c46e0ed1d31cf615ae5fa7c139aa62047f0d0e5a53e72059"
+    },
+    {
+      "path": "skills/gtm-outreach/references/buying-teams.md",
+      "source_sha256": "472c6dff3891e53f9c63e038d0c360956b933015ee99d0d52a7e6391e6366ffe",
+      "export_sha256": "472c6dff3891e53f9c63e038d0c360956b933015ee99d0d52a7e6391e6366ffe"
+    },
+    {
+      "path": "skills/gtm-outreach/references/email-handoff.md",
+      "source_sha256": "8bfeca75338ca18944aa451ebf9835b13b287669f2379c06254e220c242ad495",
+      "export_sha256": "8bfeca75338ca18944aa451ebf9835b13b287669f2379c06254e220c242ad495"
+    },
+    {
+      "path": "skills/gtm-outreach/references/mail-crm.md",
+      "source_sha256": "2b9da7572fdc49df3b658250a18db20418905a5776afd498fd45506b1df7e3ff",
+      "export_sha256": "2b9da7572fdc49df3b658250a18db20418905a5776afd498fd45506b1df7e3ff"
+    },
+    {
+      "path": "skills/gtm-outreach/references/network-handoff.md",
+      "source_sha256": "f9f3307d9bba2a979886c05cf81de6f3f4faa2c7d8ee1dc3ca3599207f2e28a3",
+      "export_sha256": "f9f3307d9bba2a979886c05cf81de6f3f4faa2c7d8ee1dc3ca3599207f2e28a3"
+    },
+    {
+      "path": "skills/gtm-pipeline/SKILL.md",
+      "source_sha256": "5cbc88abe8dc92d3cfb4f8dd99a72ff03dc406b857594db1a61267c50a474fcf",
+      "export_sha256": "5cbc88abe8dc92d3cfb4f8dd99a72ff03dc406b857594db1a61267c50a474fcf"
+    },
+    {
+      "path": "skills/gtm-pipeline/agents/openai.yaml",
+      "source_sha256": "1ba4d16c9068cf73accc8c536adcf8e50f7afee5079c6412912c5a10f25471b8",
+      "export_sha256": "1ba4d16c9068cf73accc8c536adcf8e50f7afee5079c6412912c5a10f25471b8"
+    },
+    {
+      "path": "skills/gtm-pipeline/references/closed-loop.md",
+      "source_sha256": "76c483019aa2f9ac9e235f5a60dc1ebe2d3f7b43298cf8bee882e2c384ac1402",
+      "export_sha256": "76c483019aa2f9ac9e235f5a60dc1ebe2d3f7b43298cf8bee882e2c384ac1402"
+    }
+  ],
+  "discovery_links": {
+    ".agents/skills/gtm-ad-page": "../../skills/gtm-ad-page",
+    ".agents/skills/gtm-analytics": "../../skills/gtm-analytics",
+    ".agents/skills/gtm-campaign-authoring": "../../skills/gtm-campaign-authoring",
+    ".agents/skills/gtm-campaign-operations": "../../skills/gtm-campaign-operations",
+    ".agents/skills/gtm-clusters": "../../skills/gtm-clusters",
+    ".agents/skills/gtm-next-companies": "../../skills/gtm-next-companies",
+    ".agents/skills/gtm-outreach": "../../skills/gtm-outreach",
+    ".agents/skills/gtm-pipeline": "../../skills/gtm-pipeline"
+  }
+}

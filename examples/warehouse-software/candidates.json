@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "profile_id": "warehouse-software",
+  "profile_version": "demo-v1",
+  "records": [
+    {
+      "name": "Synthetic Warehouse Software Demo Alpha",
+      "domain": "warehouse-software-alpha.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "warehouse-operations": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates warehouses with inventory reconciliation needs; not a real company claim.",
+          "source_url": "https://warehouse-software-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "multiple-sites": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates multiple physical warehouse sites; not a real company claim.",
+          "source_url": "https://warehouse-software-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "systems-integration": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for has a supported inventory system integration need; not a real company claim.",
+          "source_url": "https://warehouse-software-alpha.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Warehouse Software Demo Beta",
+      "domain": "warehouse-software-beta.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "warehouse-operations": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates warehouses with inventory reconciliation needs; not a real company claim.",
+          "source_url": "https://warehouse-software-beta.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "multiple-sites": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates multiple physical warehouse sites; not a real company claim.",
+          "source_url": "https://warehouse-software-beta.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "systems-integration": {
+          "verdict": "unknown",
+          "rationale": "No evidence in this synthetic fixture."
+        }
+      }
+    },
+    {
+      "name": "Synthetic Warehouse Software Demo Existing",
+      "domain": "warehouse-software-existing.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "warehouse-operations": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates warehouses with inventory reconciliation needs; not a real company claim.",
+          "source_url": "https://warehouse-software-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "multiple-sites": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates multiple physical warehouse sites; not a real company claim.",
+          "source_url": "https://warehouse-software-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "systems-integration": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for has a supported inventory system integration need; not a real company claim.",
+          "source_url": "https://warehouse-software-existing.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Warehouse Software Demo Unknown",
+      "domain": "warehouse-software-unknown.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "warehouse-operations": {
+          "verdict": "unknown",
+          "rationale": "No evidence in this synthetic fixture."
+        },
+        "multiple-sites": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates multiple physical warehouse sites; not a real company claim.",
+          "source_url": "https://warehouse-software-unknown.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "systems-integration": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for has a supported inventory system integration need; not a real company claim.",
+          "source_url": "https://warehouse-software-unknown.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    },
+    {
+      "name": "Synthetic Warehouse Software Demo Reserve",
+      "domain": "warehouse-software-reserve.example",
+      "origin": "synthetic-fixture-v1",
+      "assessments": {
+        "warehouse-operations": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates warehouses with inventory reconciliation needs; not a real company claim.",
+          "source_url": "https://warehouse-software-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "multiple-sites": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for operates multiple physical warehouse sites; not a real company claim.",
+          "source_url": "https://warehouse-software-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        },
+        "systems-integration": {
+          "verdict": "pass",
+          "rationale": "Synthetic fixture for has a supported inventory system integration need; not a real company claim.",
+          "source_url": "https://warehouse-software-reserve.example/product",
+          "observed_at": "2026-10-08",
+          "reviewed_by": "fixture-author"
+        }
+      }
+    }
+  ]
+}

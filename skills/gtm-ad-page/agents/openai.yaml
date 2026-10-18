@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Ad to Page"
+  short_description: "Build ad-aligned page briefs and local pages"
+  default_prompt: "Use $gtm-ad-page. Create the requested landing-page brief or local page from this ad and the client's approved evidence."

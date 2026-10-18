@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Pipeline"
+  short_description: "Coordinate GTM stages and evidence handoffs"
+  default_prompt: "Use $gtm-pipeline. Coordinate this client's requested GTM stages and preserve evidence, review state and capability gaps."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Analytics"
+  short_description: "Report sourced GTM metrics and coverage gaps"
+  default_prompt: "Use $gtm-analytics. Report the requested GTM metrics with exact windows, denominators and attribution limits."

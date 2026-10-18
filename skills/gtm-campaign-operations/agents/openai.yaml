@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Campaign Operations"
+  short_description: "Review readiness and verify scoped actions"
+  default_prompt: "Use $gtm-campaign-operations. Prepare the requested campaign plan or execute authorized platform actions with verified results."

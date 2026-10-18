@@ -1,0 +1,4 @@
+interface:
+  display_name: "GTM Next Companies"
+  short_description: "Select eligible companies from saved evidence"
+  default_prompt: "Use $gtm-next-companies. Select the next requested company batch using the client profile, saved assessments and dated exclusions."

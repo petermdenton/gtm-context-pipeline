@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "model-evaluation",
+  "version": "demo-v1",
+  "company": "Model Evaluation Demo",
+  "offer": "Compare model performance and cost on recorded application tasks",
+  "funnel": "research-intake",
+  "evidence_max_age_days": 90,
+  "exclusions_max_age_days": 7,
+  "criteria": [
+    {
+      "id": "production-workload",
+      "description": "A production language-model workflow",
+      "weight": 60,
+      "required": true
+    },
+    {
+      "id": "repeatable-evaluation",
+      "description": "Repeatable tasks with an observable quality criterion",
+      "weight": 30,
+      "required": true
+    },
+    {
+      "id": "scale-signal",
+      "description": "Evidence of meaningful usage volume",
+      "weight": 10,
+      "required": false
+    }
+  ]
+}
